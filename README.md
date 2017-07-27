@@ -12,7 +12,7 @@ And, I have a great time doing this project.
  ```
  - Install all the needed gem
  ```sh 
-          $ bundle install-- without production
+          $ bundle install --without production
 ```
  - Migrate the database
   ```sh 
