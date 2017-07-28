@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+group :production do
+  gem 'pg', '0.20.0'
+end
 
 gem 'rails',                   '5.1.2'
 gem 'bcrypt',                  '3.1.11'
@@ -36,9 +39,6 @@ group :test do
   gem 'guard-minitest',           '2.4.6'
 end
 
-group :production do
-  gem 'pg', '0.20.0'
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
