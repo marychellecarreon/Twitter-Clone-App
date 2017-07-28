@@ -30,6 +30,7 @@ And, I have a great time doing this project.
 
 ## To do list
  - To style this app similar with Twitter design
+ - To add more features on this app
  
  
 ## References
